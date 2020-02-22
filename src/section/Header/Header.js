@@ -8,8 +8,9 @@ import './Header.scss';
 const Header = () => {
     return(
         <section className="header">
-        <Welcome></Welcome>
         <Intro></Intro>
+        <Welcome></Welcome>
+
         </section>
     )
 }
