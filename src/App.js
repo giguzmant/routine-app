@@ -7,7 +7,7 @@ const App = () => {
 
 
   return (
-    <div>
+    <div style={{backgroundColor: "#f9d9eb"}}>
         <Header></Header>
         <Routine ></Routine>
     </div>

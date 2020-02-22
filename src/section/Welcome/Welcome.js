@@ -1,56 +1,39 @@
 import React from 'react';
-import WalkingRunning from '../../components/WalkingRunning/WalkingRunning';
+import RecentActivity from '../../components/RecentActivity/RecentActivity';
 import './Welcome.scss';
 import {faCheckCircle} from '@fortawesome/free-solid-svg-icons';
+import {faAngleDown} from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const walkInfo = [{
     training: "120 ",
     steps: "5,201",
-    distance: "4,6 m",
+    distance: "4,6",
     date: "20, FEB", 
+    activity: ["push-ups", "cycling"],
     icon: faCheckCircle
 },
 {   
     training: "340 ",
     steps: "12,543",
-    distance: "10,2 m ",
+    distance: "10,2",
     date: "19, FEB",
+    activity: ["boxing", "swimming", "hiking"],
     icon: faCheckCircle
 
-},
-{
-    training: "130 ",
-    steps: "8,756",
-    distance: "7,8 m ",
-    date: "18, FEB",
-    icon: faCheckCircle
-},
-{
-    training: "40 ",
-    steps: "3,867",
-    distance: "2,5 m ",
-    date: "17, FEB",
-    icon: faCheckCircle
-},
-{
-    training: "234 ",
-    steps: "6,855",
-    distance: "5,3 m",
-    date: "16, FEB",
-    icon: faCheckCircle
 }]
 
 const Welcome = props => {
     return(
         <div className="welcome">
-            <div>
-                <h3>Hello, Annie</h3>
+            <div className="welcome-login-section">
+                <div className="welcome-icon-user">
+                    <p className="welcome-icon-name">A </p>
+                </div>
+                <p className="welcome-title">Hello, Annie</p>
+                <FontAwesomeIcon className="welcome-icon-down" icon={faAngleDown}></FontAwesomeIcon>
             </div>
-            <div>
-                <p>Recent Activity</p>
-                <WalkingRunning walkInfo = {walkInfo} ></WalkingRunning>
-            </div>
-            
+            <RecentActivity walkInfo={walkInfo}></RecentActivity>
         </div>
     )
 }

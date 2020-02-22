@@ -1,0 +1,77 @@
+/*.activity-day {
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    
+    h4{
+        margin-top: 0;
+    }
+}
+
+.activity {
+    display: flex;
+    .activity-icon-steps{
+        color: green;
+    }
+    
+    .activity-info-steps {
+        margin: 0;
+        font-size: 14px;
+    }
+}
+
+*/
+
+.recent-activity-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .recent-activity-title{
+        color: #fff;
+        text-align: center;
+        font-weight: 700;
+        margin-top:10px;
+        
+    }
+    
+    .recent-activity-day{
+        width: 100px;
+        height: 30px;
+        border: 1px solid #f36b7f;
+        border-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: #f36b7f;
+        
+        h4{
+            color: #fff;
+        }
+    }
+    
+    .recent-activity {
+        display: flex;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #fff;
+        
+        .recent-activity-icon {
+            font-size: 13px;
+            color: #f36b7f;
+        }
+        
+        p{
+            margin: 0;
+            padding-left: 13px;
+            font-size: 13px;
+        
+        }
+    }
+}

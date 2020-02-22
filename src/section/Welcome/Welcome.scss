@@ -1,14 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap');
 
 .welcome{
     font-family: 'Rubik', sans-serif;
     width: 20%;
     position: fixed;
     left: 1013px;
-    border: 1px solid black;
     height: 100%;
     margin-top: 0;
-    padding: 15px;
-    text-align: center;
- 
+    //padding: 15px;
+    //text-align: center;
+    background-color:#9fbfff;
+    
+    .welcome-login-section {
+        width: 253px;
+        //height: 50px;
+        border: 1px solid #3369d6;
+        background-color: #3369d6;
+        display: flex;
+        padding-left: 36px;
+        align-items: center;
+        padding-right: 30px;
+        
+        .welcome-icon-user{
+            border-radius: 50%;
+            background-color: #9fbfff;
+            height: 35px;
+            width: 35px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            
+            .welcome-icon-name{
+                font-size: 23px;
+                font-weight: 400;
+                margin-top: 2px;
+                color: #fff;
+            }
+        }
+        
+        .welcome-title{
+            color: #fff;
+            padding-left: 25px;
+            cursor: pointer;
+            padding-right: 30px;
+            font-size: 15px;
+        }
+        
+        .welcome-icon-down{
+            color: #fff;
+            cursor: pointer;
+        }
+    }
 }
