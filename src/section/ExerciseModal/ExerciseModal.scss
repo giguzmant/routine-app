@@ -1,0 +1,44 @@
+.add-exercise-modal {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    .add-exercise-form {
+        background-color: #fff;
+        margin: 3% auto;
+        width: 30%;
+        .add-form-info{
+            display: flex;
+            flex-direction: column;
+            
+            .add-form-title{
+            align-items: flex-start;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 30px;
+            
+            h3 {
+                font-size: 25px;
+                font-weight: 300;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+            
+            .form-close {
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 300;
+                color: grey;
+                
+                
+            }
+
+            }
+        }
+    }
+    
+    
+}
