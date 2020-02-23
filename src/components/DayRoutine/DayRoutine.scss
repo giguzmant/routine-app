@@ -1,5 +1,15 @@
-.routine-card {
-    height: 350px;
-    width: 400px;
-    border: 1px solid black;
+.day-routine-container {
+    display: flex;
+    padding: 5% 30px;
+    flex-direction: row;
+    flex-flow: wrap;
+    padding-right: 240px;
+    justify-content: space-around;
+    
+    .day-routine-card {
+        height: 300px;
+        width: 250px;
+        border: 1px solid black;
+        margin-bottom: 30px;
+    }
 }
