@@ -1,0 +1,34 @@
+.intro-title{
+    font-size: 55px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2c6be7
+}
+
+.intro-info {
+    color: #333;
+    margin-top: 10px;
+    margin-bottom: 43px;
+}
+
+.intro-now-playing {
+    height: 70px;
+    border: 1px solid tomato;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    
+    .intro-now-playing-icon{
+        font-size: 30px;
+    }
+    
+    .intro-now-playing-song, .intro-now-playing-band{
+        margin: 0;
+    }
+    
+}
