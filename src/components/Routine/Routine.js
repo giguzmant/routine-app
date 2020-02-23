@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import DayRoutine from '../DayRoutine/DayRoutine';
 import './Routine.scss';
-import ExerciseModal from '../../section/ExerciseModal/ExerciseModal';
+import ExerciseModal from '../../sections/ExerciseModal/ExerciseModal';
 
 const _days = [{
     id: "monday",

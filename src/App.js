@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
-import Header from './section/Header/Header';
-import Routine from './components/Routine/Routine';
-import ExerciseModal from './section/ExerciseModal/ExerciseModal';
+import React from 'react';
+
+import Menu from './sections/Menu/Menu';
+
 
 const App = () => {
 
-
+/**f9d9eb */
   return (
-    <div style={{backgroundColor: "#f9d9eb", padding: "6% 85px"}}>
-        <Header></Header>
-        <Routine ></Routine>
+  <div style={{backgroundColor: "#fff" /*, padding: "6% 85px"*/}}> 
+        <Menu></Menu>
     </div>
   );
 }

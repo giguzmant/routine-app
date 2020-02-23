@@ -53,18 +53,18 @@ const ExerciseModal = ({addRoutine}) => {
                             <label>ROUTINE:</label>
                             <input type="text" placeholder="routine" onChange={saveExercise}/>
                         </div>
-                        <div>
-                            <label>SERIES</label>
-                            <input type="number" placeholder="ser" onChange={saveSeries}/>
-                            <button>+</button>
-                            <button>-</button>
-                        </div>
-                        <div>
-                            <label>REPETITIONS</label>
-                            <input type="number" placeholder="rep" onChange={saveRepetitions}/>
-                            <button>+</button>
-                            <button>-</button>
-                        </div>
+                                            <div>
+                                                <label>SERIES</label>
+                                                <input type="number" placeholder="ser" onChange={saveSeries}/>
+                                                <button>+</button>
+                                                <button>-</button>
+                                            </div>
+                                            <div>
+                                                <label>REPETITIONS</label>
+                                                <input type="number" placeholder="rep" onChange={saveRepetitions}/>
+                                                <button>+</button>
+                                                <button>-</button>
+                                            </div>
                         <div>
                             <select onChange={saveDay} name="days">
                                 <option value="monday">MONDAY</option>
@@ -72,6 +72,7 @@ const ExerciseModal = ({addRoutine}) => {
                                 <option value="wednesday">WEDNESDAY</option>
                                 <option value="thursday">THURSDAY</option>
                                 <option value="friday">FRIDAY</option>
+                                <option value="saturday">SATURDAY</option>
                             </select>
                         </div>
                         <button onClick={saveRoutine}>ADD TO ROUTINE</button>
