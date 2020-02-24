@@ -8,6 +8,7 @@ import {
 import Links from './Links'
 import Routine from '../../components/Routine/Routine';
 import Header from '../Header/Header';
+import AboutUs from '../AboutUs/AboutUs';
   
 const Menu = () => {
     return(
@@ -15,10 +16,11 @@ const Menu = () => {
             <Links></Links>
             <Switch>
               <Route exact path="/" 
-                     component={Header}>
+                     component={Header
+                                }>
               </Route>
               <Route path="/aboutus"
-                     component={null}>
+                     component={AboutUs}>
               </Route>
               <Route exact path="/dashboard"
                      component={Routine}></Route>

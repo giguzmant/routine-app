@@ -3,12 +3,12 @@
     top:0;
     height: 50px;
     width: 100%;
-    box-shadow: 0px 0px 10px rgb(112, 112, 112);
+    //box-shadow: 0px 0px 10px rgb(112, 112, 112);
     
     .nav {
         display: flex;
         align-content: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         padding: 0px 7%; 
         
         .nav-logo {
@@ -16,12 +16,13 @@
             font-family: 'Varela Round', sans-serif;
             font-size: 25px;
             margin-top: 6px;
+            cursor: pointer;
         }
         
         .menu{
             font-size: 14px;
             font-weight: 500;
-            width: 530px;
+            width: 100%;
             
             ul{
                 display: flex;
@@ -33,15 +34,29 @@
                     text-decoration: none;
                     font-family: "Varela Round", sans-serif;
                     color: tomato;
+                    padding: 15px;
                     transition: 0.2s ease-in-out;
                     
                     &:hover{
-                        color: #2c6be7;
-                        transition: 0.2s ease-in-out;
+                        border-bottom: 3px solid #2c6be7;
                         font-weight: bolder;
+                        background-color: whitesmoke;
+                        transition: 0.2s ease-in-out;
                     }
                 }
+                
+                .menu-links{
+                    display: flex;
+                    padding-left: 46px;
+                }
+                
+                .menu-signing {
+                    display: flex;
+                }
+                
+
             }
+            
         }
     }
     

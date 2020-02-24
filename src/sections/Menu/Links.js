@@ -9,22 +9,25 @@ const Links = () => {
                 <h3 className="nav-logo">taskip</h3>
                 <div className="menu">
                     <ul>
-                        <li>
-                            <Link to="/"> HOME </Link>
-                        </li>
-                        <li>
-                            <Link to="/aboutus">ABOUT US</Link>
-                        </li>
-                        <li>
-                            <Link to="/dashboard">DASHBOARD</Link>
-                        </li>
-                        <li>
-                            <Link to="/">LINK</Link>
-                        </li>
-                        <li>
-                            <Link to="/">LINK</Link>
-                        </li>
-
+                        <div className="menu-links">
+                            <li>
+                                <Link to="/"> HOME </Link>
+                            </li>
+                            <li>
+                                <Link to="/aboutus">ABOUT US</Link>
+                            </li>
+                            <li>
+                                <Link to="/dashboard">DASHBOARD</Link>
+                            </li>
+                        </div>
+                        <div className="menu-signing">
+                            <li>
+                                <Link to="/">SIGN IN</Link>
+                            </li>
+                            <li>
+                                <Link to="/">SIGN UP</Link>
+                            </li>
+                        </div>
                     </ul>
 
                 </div>

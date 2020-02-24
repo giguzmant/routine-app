@@ -1,15 +1,15 @@
 import React from 'react';
-import IntroImg from '../../assets/pablo-good-job.png';
+import IntroImg from '../../assets/be-patient.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPlay} from '@fortawesome/free-solid-svg-icons';
 import './Intro.scss'
-
+import OtraImg from '../../assets/E-Commerce.png'
 const Intro = () => {
     return(
     <div style={{display: "flex"}}>
         <div>
-            <h1 className="intro-title">Daily Routine</h1>
-            <p className="intro-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu.</p>
+            <h1 className="intro-title">Easy way to complete your <span>daily tasks</span></h1>
+            <p className="intro-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eleifend quis eros quis tristique. roin dapibus orci at nibh dignissim ullamcorper.</p>
             <div className="intro-now-playing">
                 <div>
                     <FontAwesomeIcon icon={faPlay} className="intro-now-playing-icon"></FontAwesomeIcon>
@@ -20,8 +20,8 @@ const Intro = () => {
                 </div>
             </div>
         </div>
-        <div>
-         <img src={IntroImg} width="80%"></img>
+        <div className="intro-img-container">
+            <img src={IntroImg} width="80%" className="intro-2nd-img"></img>
         </div>
     </div>
     )

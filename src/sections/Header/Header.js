@@ -7,7 +7,7 @@ import './Header.scss';
 const Header = () => {
     return(
         <section className="header">
-        <Intro></Intro>
+            <Intro></Intro>
         </section>
     )
 }

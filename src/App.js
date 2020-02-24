@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Menu from './sections/Menu/Menu';
+import AboutUs from './sections/AboutUs/AboutUs';
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
   return (
   <div style={{backgroundColor: "#fff" /*, padding: "6% 85px"*/}}> 
         <Menu></Menu>
+        <AboutUs></AboutUs>
     </div>
   );
 }
