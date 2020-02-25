@@ -3,7 +3,7 @@ import IntroImg from '../../assets/be-patient.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faPlay} from '@fortawesome/free-solid-svg-icons';
 import './Intro.scss'
-import OtraImg from '../../assets/E-Commerce.png'
+
 const Intro = () => {
     return(
     <div style={{display: "flex"}}>
@@ -21,7 +21,7 @@ const Intro = () => {
             </div>
         </div>
         <div className="intro-img-container">
-            <img src={IntroImg} width="80%" className="intro-2nd-img"></img>
+            <img src={IntroImg} width="80%" className="intro-2nd-img" alt=""></img>
         </div>
     </div>
     )

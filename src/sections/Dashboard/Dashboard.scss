@@ -1,8 +1,12 @@
+.dashboard-container {
+    display: flex;
+    background-color: #f5f7fb;
+    
     .dashboard-side {
         width: 70px;
         background-color: #6852d9;;
-        position: fixed;
-        height: 700px;
+        //position: fixed;
+        /**/height: 600px;
      
         
         .dashboard-side-logo{
@@ -40,9 +44,46 @@
     .dashboard{
         display: flex;
         justify-content: space-between;
-    
+        /**/
+        width: 100%;
+        padding: 33px 2%;
+        
         .dashboard-content{
-            padding: 5px 10%;
+            //padding: 33px 3%;
+            width: 100%;
+            padding-right: 54px;
+            font-family: "Varela Round", sans-serif;
+            
+            .dashboard-content-top{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                
+                .dashboard-content-title{
+                    color: #7d7d7d;
+
+                    h3{
+                        margin: 0;
+
+                    }
+                }
+                
+                .dashboard-content-icons{
+                    display: flex;
+                    align-items: flex-start;
+                    color: #7d7d7d;
+                    
+                    svg{
+                        padding-right: 15px;
+                    }
+                }
+            }
+            
+            .dashboard-2nd-row{
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row;
+            }
             
         }
         
@@ -96,4 +137,4 @@
         }
     }
     
-
+}

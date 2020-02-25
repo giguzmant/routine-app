@@ -5,7 +5,7 @@ const AboutUs = () => {
     return(
         <section>
              <h2>Get Anything Done!</h2>
-            <img src={HeaderImg} width="70%" />
+            <img src={HeaderImg} width="70%" alt="" />
             <p>taskip help you to organize your weekdays in a awesome, flexible way.
             Dive into the details by adding comments or notes. 
             Whether it's for work, a side project or just for fun.</p>

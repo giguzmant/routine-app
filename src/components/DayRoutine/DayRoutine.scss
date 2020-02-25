@@ -1,13 +1,13 @@
 .day-routine-container {
     display: flex;
-    padding: 5% 30px;
+    //padding: 5% 30px;
     flex-direction: row;
     flex-flow: wrap;
-    padding-right: 240px;
+    //padding-right: 240px;
     justify-content: space-around;
     
     .day-routine-card {
-        width: 250px;
+        width: 120px;
         background-color:  #2c6be7;
         color: #fff;
         margin-bottom: 30px;
@@ -16,6 +16,8 @@
         height: 200px;
         overflow: hidden;
         position: relative;
+        padding: 30px 15px;
+    
         .day-routine-name {
             text-align: center;
         }

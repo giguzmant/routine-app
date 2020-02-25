@@ -28,11 +28,11 @@ const _days = [{
     day: "friday",
     exercise: []
 },
-{
+/*{
     id:"saturday",
     day: "saturday",
     exercise: []
-}
+}*/
 ]
 
 

@@ -1,0 +1,55 @@
+.important-card-container {
+    background-color: #4e3bce;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 30px 11.5%;
+    margin-top: 27px;
+    box-shadow: 7px 9px 21px -5px rgba(0,0,0,0.32);
+
+    .important-title-container{
+        background-color: tomato;
+        border-radius: 50px;
+        width: 125px;
+        display: flex;
+        justify-content: center;
+        
+        h4{
+            margin: 0;
+            padding: 10px;
+            color: #fff;
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+    }
+    
+    .important-img{
+        svg{
+            color: #fdbbfd ;
+            padding: 15px;
+            font-size: 40px;
+        }
+    }
+    .important-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        
+        h3{
+            font-family: "Varela Round", sans-serif;
+            margin-top: 6px;
+            margin-bottom: 0;
+        }
+        
+        p{
+            font-size: 13px;
+        }
+    }
+
+}

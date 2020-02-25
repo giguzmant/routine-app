@@ -7,7 +7,6 @@ import {
 
 import Links from './Links'
 import Routine from '../../components/Routine/Routine';
-import Header from '../Header/Header';
 import AboutUs from '../AboutUs/AboutUs';
 import Home from '../Home/Home';
 import Dashboard from '../Dashboard/Dashboard';

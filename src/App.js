@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Menu from './sections/Menu/Menu';
-import AboutUs from './sections/AboutUs/AboutUs';
 
 
 const App = () => {
