@@ -9,6 +9,8 @@ import Links from './Links'
 import Routine from '../../components/Routine/Routine';
 import Header from '../Header/Header';
 import AboutUs from '../AboutUs/AboutUs';
+import Home from '../Home/Home';
+import Dashboard from '../Dashboard/Dashboard';
   
 const Menu = () => {
     return(
@@ -16,7 +18,7 @@ const Menu = () => {
             <Links></Links>
             <Switch>
               <Route exact path="/" 
-                     component={Header
+                     component={Home
                                 }>
               </Route>
               <Route path="/aboutus"
@@ -24,6 +26,10 @@ const Menu = () => {
               </Route>
               <Route exact path="/dashboard"
                      component={Routine}></Route>
+              <Route path="/prueba"
+                    component={Dashboard}>
+
+              </Route>
             </Switch>
       </BrowserRouter>
     )

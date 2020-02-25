@@ -17,7 +17,10 @@ const Links = () => {
                                 <Link to="/aboutus">ABOUT US</Link>
                             </li>
                             <li>
-                                <Link to="/dashboard">DASHBOARD</Link>
+                                <Link to="/dashboard">TRY IT!</Link>
+                            </li>
+                            <li>
+                                <Link to="prueba">PRUEBA</Link>
                             </li>
                         </div>
                         <div className="menu-signing">

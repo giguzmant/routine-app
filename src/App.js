@@ -10,7 +10,6 @@ const App = () => {
   return (
   <div style={{backgroundColor: "#fff" /*, padding: "6% 85px"*/}}> 
         <Menu></Menu>
-        <AboutUs></AboutUs>
     </div>
   );
 }
